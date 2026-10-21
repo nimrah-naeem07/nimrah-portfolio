@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nimrah Naeem </title>
+  <meta name="description" content="Portfolio of Nimrah Naeem, front-end web developer and graphic designer." />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Background aurora -->
+  <div class="aurora">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+    <span class="blob b3"></span>
+  </div>
+  <div class="cursor-glow" id="glow"></div>
+
+  <!-- Navbar -->
+  <header class="nav glass">
+    <a href="#home" class="logo">
+  <span class="logo-mark">N</span>
+  nimrah<span>.dev</span>
+</a>
+    <nav id="menu">
+  <a href="#about">About</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+    <div class="nav-actions">
+      <button id="themeBtn" aria-label="Toggle theme">🌙</button>
+      <button id="burger" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <p class="mono hello">&lt;hello world /&gt;</p>
+    <h1>Hi, I'm <span class="gradient-text">Nimrah Naeem</span></h1>
+    <h2 class="typing"><span id="typed"></span><span class="caret">|</span></h2>
+    <p class="lead">
+           I build modern, responsive web sites with clean code, where every detail is designed to deliver a smooth user experience.
+    </p>
+    <div class="cta">
+  <a href="#projects" class="btn primary">View Projects</a>
+  <a href="#contact" class="btn ghost">Contact Me</a>
+  <a href="Nimrah-Naeem-CV.pdf" target="_blank" rel="noopener noreferrer" class="btn cv">View Resume 📄</a>
+</div>
+    <div class="scroll-hint">scroll ↓</div>
+  </section>
+
+  <!-- About -->
+ <section id="about" class="section reveal">
+  <h3 class="title"><span class="mono">01.</span> About Me</h3>
+  <div class="about-grid">
+    <div class="glass card">
+      <p>
+        I'm a Computer Science student with a passion for building beautiful,
+        user-friendly websites. I'm currently pursuing the Meta Front-End Developer
+        Professional Certificate, where I'm sharpening my skills in HTML, CSS,
+        JavaScript and React.
+      </p>
+      <p style="margin-top:14px;">
+       Alongside coding, I love visual design. I use Adobe Photoshop, Illustrator and Lightroom, along with Canva, to create graphics, logos, social media designs and polished photo edits.
+      </p>
+    </div>
+    <div class="stats">
+      <div class="glass stat"><b data-count="5">0</b><small>Projects</small></div>
+      <div class="glass stat"><b data-count="12">0</b><small>Skills & Tools</small></div>
+      <div class="glass stat"><b data-count="100">0</b><small>% Curiosity</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="section reveal">
+  <h3 class="title"><span class="mono">02.</span> Education</h3>
+
+  <div class="timeline">
+
+    <div class="t-item">
+      <span class="dot"></span>
+      <div class="glass t-card">
+        <span class="date mono">2025 - Expected 2029</span>
+        <h4>BS in Computer Science</h4>
+        <p class="school">Dawood University of Engineering & Technology, Karachi</p>
+        <p>Coursework in Object-Oriented Programming (Java), Database Systems (MySQL), Digital Logic Design, Linear Algebra and Front-End Development.</p>
+      </div>
+    </div>
+
+
+
+    <div class="t-item">
+      <span class="dot"></span>
+      <div class="glass t-card">
+        <span class="date mono">2023</span>
+        <h4>Matriculation (Science Group)</h4>
+        <p class="school">St. Paul's English High School, Karachi</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Skills -->
+  <section id="skills" class="section reveal">
+  <h3 class="title"><span class="mono">03.</span> Skills</h3>
+
+  <div class="skill-group">
+  <h4>Development</h4>
+  <div class="chips">
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg" alt="HTML5 logo" /> HTML5
+    </span>
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg" alt="CSS3 logo" /> CSS3
+    </span>
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg" alt="JavaScript logo" /> JavaScript
+    </span>
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg" alt="React logo" /> React
+    </span>
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg" alt="Java logo" /> Java (OOP)
+    </span>
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg" alt="MySQL logo" /> MySQL
+    </span>
+    <span class="chip tech">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg" alt="Git logo" /> Git & GitHub
+    </span>
+    <span class="chip tech">
+      <span class="emoji">📱</span> Responsive Design
+    </span>
+  </div>
+</div>
+
+  <div class="skill-group">
+  <h4>Design Tools</h4>
+  <div class="chips">
+    <span class="chip adobe ps"><i>Ps</i> Photoshop</span>
+    <span class="chip adobe ai"><i>Ai</i> Illustrator</span>
+    <span class="chip adobe lr"><i>Lr</i> Lightroom</span>
+    <span class="chip adobe cv"><i>Cv</i> Canva</span>
+  </div>
+</div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="section reveal">
+  <h3 class="title"><span class="mono">04.</span> Experience</h3>
+
+  <div class="timeline">
+
+    <div class="t-item">
+      <span class="dot"></span>
+      <div class="glass t-card">
+        <span class="date mono">March 2026 - May 2026</span>
+        <h4>Freelance Graphic Designer</h4>
+        <p class="school">Startup Name</p>
+        <p>Designed logos, social media posts and marketing graphics for the startup using Photoshop, Illustrator and Canva, helping build a consistent brand look.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Projects -->
+ <section id="projects" class="section reveal">
+  <h3 class="title"><span class="mono">05.</span> Projects</h3>
+  <div class="projects">
+
+    <article class="glass project tilt">
+      <div class="thumb t1">🛒</div>
+      <h4>GadgetGo</h4>
+      <p>An e-commerce app for electronics and gadgets with product listings, cart and filters built in React.</p>
+      <div class="tags"><span>React</span><span>CSS</span><span>JavaScript</span></div>
+      <div class="links"><a href="#">Live Demo ↗</a><a href="#">Code ↗</a></div>
+    </article>
+
+    <article class="glass project tilt">
+      <div class="thumb t2">✅</div>
+      <h4>Task Tracker</h4>
+      <p>A to-do app to add, delete and complete tasks, with data saved in localStorage.</p>
+      <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+      <div class="links"><a href="#">Live Demo ↗</a><a href="#">Code ↗</a></div>
+    </article>
+
+
+    <article class="glass project tilt">
+      <div class="thumb t4">🎨</div>
+      <h4>Brand Identity & Logo Design</h4>
+      <p>A complete logo and brand kit with color palette and typography, designed from scratch.</p>
+      <div class="tags"><span>Illustrator</span><span>Branding</span></div>
+      <div class="links"><a href="#">View Work ↗</a></div>
+    </article>
+
+    <article class="glass project tilt">
+      <div class="thumb t5">📸</div>
+      <h4>Photo Retouching Series</h4>
+      <p>A collection of portrait and landscape edits with color grading and retouching.</p>
+      <div class="tags"><span>Lightroom</span><span>Photoshop</span></div>
+      <div class="links"><a href="#">View Work ↗</a></div>
+    </article>
+
+    <article class="glass project tilt">
+      <div class="thumb t6">📱</div>
+      <h4>UI Design Concepts</h4>
+      <p>Mobile and web interface concepts, planned visually before turning them into code.</p>
+      <div class="tags"><span>Photoshop</span><span>UI/UX</span><span>Figma-style layout</span></div>
+      <div class="links"><a href="#">View Work ↗</a></div>
+    </article>
+
+  </div>
+</section>
+   
+
+  <!-- Contact -->
+  <section id="contact" class="section reveal">
+    <h3 class="title"><span class="mono">06.</span> Let's Connect</h3>
+    <form class="glass contact" id="form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button class="btn primary" type="submit">Send Message</button>
+      <p id="formMsg" class="mono"></p>
+    </form>
+   <div class="socials">
+  <a href="https://www.linkedin.com/in/nimrah-naeem-638122384" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a href="mailto:nimrahnaeem184@gmail.com">Email</a>
+</div>
+  </section>
+
+  <footer>Designed & built by Nimrah Naeem✨</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
